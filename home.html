@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titanic Survival</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+
+<section>
+	<div>
+		<form action="predict.php" method="POST">
+			<label>PClass</label><br>
+			<select name="Pclass" id="pclass">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+				<br>
+			<label>Age</label><br>
+			<input type="text" name="Age" id="age"><br>
+			<label>SibSp</label><br>
+			<select name="SibSp" id="SibSp">
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="8">8</option>
+			</select>
+
+				<br>
+			<label>Fare</label><br>
+			<input type="text" name="Fare" id="fare"><br>
+		
+		<input type="submit" name="submit" value="submit">
+		</form>
+	</div>
+	<p id="demo"></p>
+</section>
+</center>
+
+
+
+</body>
+</html>
